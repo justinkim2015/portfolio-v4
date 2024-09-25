@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'monteserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'open sans';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#content {
+  font-family: "monteserrat";
+}
+
+.blue-button {
+  background-color: #040C2C;
+  color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.blue-button:hover {
+  color: #040C2C;
+  background-color: white;
+}
+
+.white-button {
+  color: #040C2C;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.white-button:hover {
+  background-color: #040C2C;
+  color: white;
+}
+
+.underbar {
+  width: 80px;
+  height: 2px;
+  margin: 25px 0;
+  background-color: #BCBCBC;
+}

@@ -1,0 +1,39 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040c2c;
+  padding: 60px;
+  gap: 14px;
+}
+
+.footer-logo {
+  max-width: 70px;
+}
+
+.made-by {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.inspired-by {
+  font-size: 10px;
+  color: #999999;
+}
+
+
+/* Tablet */
+@media (min-width: 480px) {
+
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+
+}

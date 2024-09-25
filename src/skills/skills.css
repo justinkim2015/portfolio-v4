@@ -1,0 +1,145 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.skills-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0 60px 0;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-title {
+  font-size: 30px;
+  font-weight: 1000;
+  margin: 0 0 12px;
+}
+
+.skills-subtitle {
+  font-family: 'open sans';
+  color: #797979;
+}
+
+.frontend, .backend, .dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 60px;
+  width: 80%;
+  background-color: #ffffff;
+  padding: 20px 60px;
+}
+
+.skill-title {    
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+.skill {
+  color: #797979;
+  margin: 5px 0;
+  text-align: center;
+  font-family: 'open sans';
+}
+
+.circle {
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  border-radius: 1000px;
+  opacity: 45%;
+}
+
+.skill-icon {
+  max-width: 50px;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Tablet */
+@media (min-width: 480px) {
+  .frontend, .backend, .dev {
+    width: 50%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  #skills {
+    padding: 120px 0;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .skill-title {
+    text-align: center;
+  }
+
+  .frontend, .backend, .dev {
+    padding: 20px 30px;
+  }
+
+}
+
+/* Font size 42px */
+/* Subtitle 20px */
+/* Text 18px */
+/* Desktop */
+@media (min-width: 1440px) {
+  .skills-container {
+    width: 70%;
+  }
+
+  #skills {
+    padding: 180px 0;
+  }
+
+  .skills-title {
+    font-size: 42px;
+  }
+
+  .skill-title, .skills-subtitle{
+    font-size: 20px;
+  }
+
+  .skill {
+    font-size: 18px;
+  }
+
+  .frontend, .backend, .dev {
+    padding: 40px 60px;
+  }
+
+  .skills-container {
+    gap: 150px;
+  }
+}

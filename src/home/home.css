@@ -1,0 +1,73 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./sunrise-dark.png');
+  background-size: cover;
+}
+
+#banner-content, .banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.hello, .name, .my-desc {
+  color: #FFFFFF;
+}
+
+.hello {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.name {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.my-desc {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.social-icon {
+  margin: 0 20px 0 20px;
+  max-width: 30px;
+  opacity: 70%;
+
+}
+
+.social-icon:hover {
+  opacity: 100%;
+}
+
+
+/* Tablet */
+@media (min-width: 480px) {
+
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .hello {
+    font-size: 28px;
+  }
+  
+  .name {
+    font-size: 50px;
+  }
+  
+  .my-desc {
+    font-size: 30px;
+  }  
+}
